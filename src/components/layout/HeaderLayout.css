@@ -2,12 +2,14 @@
   background: lightgray;
 }
 .top-menu {
-  background: gray;
+  padding: 0 15px;
+  background: #4a4d4e;
   position: absolute;
   display: flex;
   width: 100%;
   height: 24px;
   justify-content: space-between;
+  z-index: 5;
 }
 .top-left a {
   position: relative;
@@ -33,6 +35,21 @@ a {
   height: 50px;
 }
 .main-menu {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: flex;
   background-color: blueviolet;
   padding-top: 38px;
+  z-index: 1;
+}
+.menu-list ul {
+  display: flex;
+  list-style: none;
+  background: yellow;
+}
+.menu-list li {
+  position: relative;
+  margin: 0px 10px;
+  text-align: left;
 }

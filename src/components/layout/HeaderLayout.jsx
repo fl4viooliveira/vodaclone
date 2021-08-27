@@ -20,7 +20,7 @@ export default function HeaderLayout(props) {
       </div>
       <div className="main-menu">
         <div className="logo">{Constants.logo}</div>
-        <div className="manu-list">{props.children}</div>
+        <div className="menu-list">{props.children}</div>
       </div>
     </div>
   );
