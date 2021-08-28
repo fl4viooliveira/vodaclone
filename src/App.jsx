@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./components/header";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
     <div>
-      <Header />
+      <Home />
       <h1>App</h1>
     </div>
   );
