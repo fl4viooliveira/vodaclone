@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <div>
       <HeaderLayout>
-        <ul>
+        <ul className="header-menu">
           <li>Shop</li>
           <li>Why Vodafone</li>
           <li>Help</li>

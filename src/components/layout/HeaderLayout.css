@@ -1,7 +1,6 @@
 .container-header {
   height: 100%;
   display: block;
-  overflow: hidden;
 }
 .top {
   width: 100%;
@@ -9,7 +8,8 @@
 }
 .top-menu {
   display: flex;
-  width: 1264px;
+  width-max: 1265px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 29px;
@@ -50,7 +50,8 @@ a {
 }
 .main-menu {
   position: relative;
-  width: 1264px;
+  width-max: 1264px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 60px;
@@ -60,7 +61,7 @@ a {
   z-index: 1;
 }
 /* It's appoint to children components  */
-.menu-list ul {
+.menu-list .header-menu {
   display: flex;
   list-style: none;
 }
@@ -68,13 +69,13 @@ a {
 .menu-list li {
   font-size: 20px;
   font-weight: 400;
-
   position: relative;
   margin-right: 35px;
   color: #4a4d4e;
 }
 .right-icons {
   position: absolute;
+  display: flex;
   list-style: none;
   right: 0;
   top: 0;
@@ -84,4 +85,47 @@ a {
 }
 .right-icons li {
   width: 32px;
+}
+.main-menu .burger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .container-header {
+    width: 100%;
+  }
+  .top-menu {
+    display: none;
+  }
+  .header-menu li {
+    display: none;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .main-menu {
+    width: 100%;
+    display: flex;
+  }
+  .main-menu .right-icons {
+    position: absolute;
+    margin-top: 14px;
+    display: flex;
+    margin-right: 50px;
+  }
+  .right-icons li {
+    width: 25px;
+    margin: 6px;
+  }
+  .main-menu .burger {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
+  .burger {
+    width: 25px;
+  }
 }

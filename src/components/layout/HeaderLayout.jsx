@@ -31,6 +31,7 @@ export default function HeaderLayout(props) {
               <li className="user">{Constants.userIcon}</li>
             </ul>
           </div>
+          <div className="burger">{Constants.burgerIcon}</div>
         </div>
       </div>
     </div>
