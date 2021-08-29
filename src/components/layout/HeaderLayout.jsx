@@ -1,7 +1,12 @@
+import React, { useState } from "react";
 import "./HeaderLayout.css";
 import * as Constants from "./Svg";
 
 export default function HeaderLayout(props) {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="container-header">
       <div className="top">
@@ -31,7 +36,18 @@ export default function HeaderLayout(props) {
               <li className="user">{Constants.userIcon}</li>
             </ul>
           </div>
-          <div className="burger">{Constants.burgerIcon}</div>
+          <div
+            className={click ? "burger active" : "burger"}
+            onClick={handleClick}
+          >
+            {Constants.burgerIcon}
+          </div>
+          <div
+            className={click ? "close" : "close active"}
+            onClick={handleClick}
+          >
+            {Constants.closeIcon}
+          </div>
         </div>
       </div>
     </div>

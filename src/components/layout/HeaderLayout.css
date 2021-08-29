@@ -128,4 +128,17 @@ a {
   .burger {
     width: 25px;
   }
+  .burger.active {
+    display: none;
+  }
+  .close.active {
+    display: none;
+  }
+  .close {
+    position: absolute;
+    display: flex;
+    right: 0;
+    width: 30px;
+    margin-right: 20px;
+  }
 }

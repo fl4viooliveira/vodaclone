@@ -100,3 +100,13 @@ export const burgerIcon = (
     <path d="M156 128H4a4 4 0 0 0 0 8h152a4 4 0 0 0 0-8zm0-52H4a4 4 0 0 0 0 8h152a4 4 0 0 0 0-8zM4 32h152a4 4 0 0 0 0-8H4a4 4 0 0 0 0 8z"></path>
   </svg>
 );
+export const closeIcon = (
+  <svg
+    data-name="9d0a95fb-2f52-4640-a8af-f45ca1927f18"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 160 160"
+    data-di-rand="1630265741852"
+  >
+    <path d="M85.66 80l45.17-45.17a4 4 0 0 0-5.66-5.66L80 74.34 34.83 29.17a4 4 0 0 0-5.66 5.66L74.34 80l-45.17 45.17a4 4 0 1 0 5.66 5.66L80 85.66l45.17 45.17a4 4 0 0 0 5.66-5.66z"></path>
+  </svg>
+);
