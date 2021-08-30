@@ -29,7 +29,15 @@ export default function HeaderLayout(props) {
         <div className="main-menu">
           <div className="logo">{Constants.logo}</div>
           <div className="menu-list">
-            {props.children}
+            <ul
+              className={click ? "header-menu active" : "header-menu"}
+              onClick={handleClick}
+            >
+              <li className="menu-item">Shop</li>
+              <li className="menu-item">Why Vodafone</li>
+              <li className="menu-item">Help</li>
+              <li className="menu-item">My Vodafone</li>
+            </ul>
             <ul className="right-icons">
               <li className="cart">{Constants.cartIcon}</li>
               <li className="search">{Constants.searchIcon}</li>
