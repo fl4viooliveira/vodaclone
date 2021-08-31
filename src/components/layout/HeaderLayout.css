@@ -91,27 +91,16 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 800px) {
-  .container-header {
-    width: 100%;
-  }
+@media screen and (max-width: 960px) {
   .top-menu {
     display: none;
   }
-  /* .header-menu li {
-    display: none;
-  } */
   .logo {
     margin-left: 20px;
     width: 30px;
     height: 30px;
   }
-  .main-menu {
-    width: 100%;
-    display: flex;
-  }
   .main-menu .right-icons {
-    position: absolute;
     margin-top: 14px;
     display: flex;
     margin-right: 50px;
@@ -149,7 +138,6 @@ a {
     display: none;
   }
   .header-menu {
-    width: 100%;
     margin-top: 51px;
     left: -210px;
   }

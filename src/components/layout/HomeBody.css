@@ -4,3 +4,11 @@
   right: 50%;
   transform: translate(-50%, 0);
 }
+@media screen and (max-width: 960px) {
+  .body-container .galaxy {
+    width: 250%;
+  }
+  .body-container {
+    overflow-x: hidden;
+  }
+}
