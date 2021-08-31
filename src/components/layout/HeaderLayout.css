@@ -141,6 +141,7 @@ a {
     margin-top: 51px;
     left: -210px;
   }
+  /*TODO fix overflow-x  */
   .header-menu.active {
     background-color: #fff;
     display: flex;
@@ -155,6 +156,7 @@ a {
     margin-left: 0px;
     margin-bottom: 20px;
     transition: all 0.9s ease;
+    height: 100vh;
   }
   .header-menu.active li {
     display: table;
