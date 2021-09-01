@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { div } from "prelude-ls";
 
-export default function HomeAPI() {
+export default function YouMightLike() {
   const [products, setProducts] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);

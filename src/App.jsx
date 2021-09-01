@@ -1,7 +1,7 @@
 import "./App.css";
-import Detail from "./pages/Detail";
-import Home from "./pages/Home";
-import PhoneList from "./pages/PhoneList";
+import Detail from "./views/Detail";
+import Home from "./views/Home";
+import PhoneList from "./views/PhoneList";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default function App() {

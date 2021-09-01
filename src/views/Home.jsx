@@ -1,4 +1,4 @@
-import HomeAPI from "../components/data/HomeAPI";
+import YouMightLike from "../components/data/YouMightLike";
 import Header from "../components/Header";
 import HomeBody from "../components/layout/HomeBody";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <div className="home-container">
       <Header />
       <HomeBody>
-        <HomeAPI />
+        <YouMightLike />
       </HomeBody>
     </div>
   );

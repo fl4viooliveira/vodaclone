@@ -4,6 +4,50 @@
   right: 50%;
   transform: translate(-50%, 0);
 }
+.hello {
+  width: 100%;
+}
+.hello-text {
+  width: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.hello-text h1 {
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+}
+.hello-text h2 {
+  position: absolute;
+  width: 100vw;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+.hello .hello-text .bkg-img {
+  width: 100vw;
+  min-height: 300px;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+button {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0);
+  width: 200px;
+  height: 50px;
+  background: #000;
+}
+button a {
+  position: relative;
+  color: #fff;
+}
 @media screen and (max-width: 960px) {
   .body-container .galaxy {
     width: 250%;
