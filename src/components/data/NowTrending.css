@@ -1,0 +1,35 @@
+.now-trending {
+  position: absolute;
+  width: 100vw;
+  display: block;
+  background: #e6e6e6;
+}
+.now-trending > h2 {
+  text-align: center;
+  position: relative;
+  height: 30px;
+}
+.products {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.products > ul li {
+  position: relative;
+  padding: 24px 8px 16px 8px;
+  display: block;
+  height: 270px;
+  width: 200px;
+  box-sizing: border-box;
+}
+.products > ul > li p {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  background-color: aqua;
+  box-sizing: border-box;
+}
+.products > ul > li > img {
+  max-width: 166px;
+}

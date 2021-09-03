@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <Header />
-      <HomeBody>
-        <YouMightLike />
-      </HomeBody>
+      <HomeBody />
     </div>
   );
 }
