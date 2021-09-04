@@ -1,0 +1,40 @@
+.dm-container {
+  background: rgb(74, 77, 78);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nt-title {
+  width: 100%;
+  position: absolute;
+  padding-top: 20px;
+  text-align: center;
+}
+.discover-more {
+  padding-top: 20px;
+  display: flex;
+  position: relative;
+  margin-top: 60px;
+  max-width: 1264px;
+}
+.discover-more > li {
+  position: relative;
+  list-style: none;
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  color: #000;
+}
+.discover-more > li > img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50%; /* FIXME: This is a hack to make the image fit the container */
+  top: 0;
+}
+.discover-more > li > .contents {
+  position: absolute;
+  margin-left: 10px;
+  bottom: 0;
+}

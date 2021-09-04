@@ -1,6 +1,7 @@
 .life-container {
-  position: absolute;
+  position: relative;
   width: 100vw;
+  top: 0;
   display: block;
   height: fit-content;
   background: #e60000;

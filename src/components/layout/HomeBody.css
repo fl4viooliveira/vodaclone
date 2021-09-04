@@ -1,9 +1,27 @@
+.body-container {
+  position: relative;
+}
 .galaxy {
   position: relative;
   left: 50%;
   right: 50%;
   transform: translate(-50%, 0);
 }
+.very-me {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0);
+  position: relative;
+}
+.very-me > h1 {
+  width: 1264px;
+  position: absolute;
+  text-align: center;
+}
+
 /* -------------------------------------------- */
 @media screen and (max-width: 960px) {
   .body-container .galaxy {

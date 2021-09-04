@@ -4,6 +4,10 @@ import Guaranteed from "../data/Guaranteed";
 import YouMightLike from "../data/YouMightLike";
 import NowTrending from "../data/NowTrending";
 import LifeEasier from "../data/LifeEasier";
+import MoreToLove from "../data/MoreToLove";
+import VeryMe from "../../images/home/vfcon106076.png";
+import DiscoverMore from "../data/DiscoverMore";
+import Footer from "./Footer";
 
 export default function HomeBody(props) {
   return (
@@ -13,6 +17,18 @@ export default function HomeBody(props) {
       <YouMightLike />
       <NowTrending />
       <LifeEasier />
+      <MoreToLove />
+      <div className="very-me">
+        <h1>
+          VeryMe Rewards <br /> The loyalty programme built around you
+        </h1>
+        <button>
+          <a href="#0">Find out more</a>
+        </button>
+        <img src={VeryMe} alt="VeryMe" />
+      </div>
+      <DiscoverMore />
+      <Footer />
     </div>
   );
 }
