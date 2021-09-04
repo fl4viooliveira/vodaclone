@@ -1,0 +1,28 @@
+.life-container {
+  position: absolute;
+  width: 100vw;
+  display: block;
+  height: fit-content;
+  background: #e60000;
+  color: #fff;
+  text-align: center;
+}
+.life-container > ul {
+  position: relative;
+  width: 1264px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.life-container > ul > li {
+  justify-items: center;
+  display: block;
+  padding: 10px;
+}
+.life-container > ul > li > button {
+  position: relative;
+  color: #fff;
+}

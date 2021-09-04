@@ -1,35 +1,46 @@
 .now-trending {
-  position: absolute;
+  position: relative;
   width: 100vw;
-  display: block;
+  display: flex;
+  height: fit-content;
   background: #e6e6e6;
+  justify-content: center;
 }
 .now-trending > h2 {
-  text-align: center;
-  position: relative;
-  height: 30px;
-}
-.products {
-  display: flex;
   position: absolute;
-  flex-wrap: wrap;
-  width: 100vw;
+  height: 30px;
+  text-align: center;
 }
-.products > ul li {
+.now-trending .products {
+  display: flex;
+
+  margin-top: 60px;
   position: relative;
-  padding: 24px 8px 16px 8px;
+  flex-wrap: wrap;
+  max-width: 1264px;
+  height: fit-content;
+  justify-content: center;
+}
+.now-trending .products > ul li {
+  position: relative;
   display: block;
+  width: auto;
   height: 270px;
-  width: 200px;
   box-sizing: border-box;
 }
-.products > ul > li p {
+.now-trending .products > ul > li p {
   bottom: 0;
   position: absolute;
-  text-align: center;
   background-color: aqua;
-  box-sizing: border-box;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0;
 }
-.products > ul > li > img {
-  max-width: 166px;
+.now-trending .products > ul > li > img {
+  max-width: 136px;
+  position: relative;
+  padding: 24px 8px 16px 8px;
+  border-radius: 15px;
+  background: #fff;
+  vertical-align: text-top;
 }
