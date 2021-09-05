@@ -64,11 +64,12 @@ a {
   display: flex;
   list-style: none;
 }
-.menu-list li {
+.menu-list .menu-item {
   font-size: 20px;
   font-weight: 400;
   position: relative;
   margin-right: 35px;
+  margin-left: 10px;
   color: #4a4d4e;
 }
 .right-icons {
@@ -76,12 +77,14 @@ a {
   display: flex;
   list-style: none;
   right: 0;
-  top: 0;
-  align-items: center;
+  top: 15px;
+  align-content: center;
   justify-content: flex-end;
   fill: #4a4d4e;
 }
-.right-icons li {
+.right-icons > li {
+  position: relative;
+  margin-right: 20px;
   width: 32px;
 }
 .main-menu .burger {
@@ -101,13 +104,13 @@ a {
     height: 30px;
   }
   .main-menu .right-icons {
-    margin-top: 14px;
+    margin-top: 8px;
     display: flex;
     margin-right: 50px;
   }
-  .right-icons li {
+  .right-icons > li {
     width: 25px;
-    margin: 6px;
+    margin: 0 6px;
   }
   .main-menu .burger {
     display: flex;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./HeaderLayout.css";
-import * as Constants from "./Svg";
+import * as Constants from "../data/svg.js";
 
 export default function HeaderLayout(props) {
   const [click, setClick] = useState(false);

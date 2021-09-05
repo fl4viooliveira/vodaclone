@@ -1,5 +1,6 @@
 import "./Guaranteed.css";
 import bkgImg from "../../images/home/vfcon110851.png";
+import * as Constants from "./svg";
 
 export default function Guaranteed() {
   return (
@@ -18,27 +19,27 @@ export default function Guaranteed() {
       <div className="quick-links">
         <ul>
           <li>
-            <span></span>
+            <span>{Constants.phoneIcon}</span>
             <a href="#0">Pay monthly phones</a>
           </li>
           <li>
-            <span></span>
+            <span>{Constants.simCardIcon}</span>
             <a href="#0">SIM only deals</a>
           </li>
           <li>
-            <span></span>
+            <span>{Constants.ipadIcon}</span>
             <a href="#0">Home Broadband</a>
           </li>
           <li>
-            <span></span>
+            <span>{Constants.topupIcon}</span>
             <a href="#0">Top up</a>
           </li>
           <li>
-            <span></span>
+            <span>{Constants.suportIcon}</span>
             <a href="#0">Support</a>
           </li>
           <li>
-            <span></span>
+            <span>{Constants.updatesIcons}</span>
             <a href="#0">Upgrades</a>
           </li>
         </ul>
