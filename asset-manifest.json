@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vodaclone/static/css/main.34cb16b0.chunk.css",
+    "main.css": "/vodaclone/static/css/main.c9aa127b.chunk.css",
     "main.js": "/vodaclone/static/js/main.ff923f87.chunk.js",
     "main.js.map": "/vodaclone/static/js/main.ff923f87.chunk.js.map",
     "runtime-main.js": "/vodaclone/static/js/runtime-main.8e3ce4f9.js",
@@ -10,7 +10,7 @@
     "static/js/3.10b5f917.chunk.js": "/vodaclone/static/js/3.10b5f917.chunk.js",
     "static/js/3.10b5f917.chunk.js.map": "/vodaclone/static/js/3.10b5f917.chunk.js.map",
     "index.html": "/vodaclone/index.html",
-    "static/css/main.34cb16b0.chunk.css.map": "/vodaclone/static/css/main.34cb16b0.chunk.css.map",
+    "static/css/main.c9aa127b.chunk.css.map": "/vodaclone/static/css/main.c9aa127b.chunk.css.map",
     "static/js/2.00a4e78e.chunk.js.LICENSE.txt": "/vodaclone/static/js/2.00a4e78e.chunk.js.LICENSE.txt",
     "static/media/vfcon110851.4426f024.png": "/vodaclone/static/media/vfcon110851.4426f024.png",
     "static/media/vfcon110904.16d8e7b0.jpg": "/vodaclone/static/media/vfcon110904.16d8e7b0.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.8e3ce4f9.js",
     "static/js/2.00a4e78e.chunk.js",
-    "static/css/main.34cb16b0.chunk.css",
+    "static/css/main.c9aa127b.chunk.css",
     "static/js/main.ff923f87.chunk.js"
   ]
 }
