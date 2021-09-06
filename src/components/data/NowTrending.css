@@ -2,18 +2,20 @@
   position: relative;
   width: 100vw;
   display: flex;
-  height: fit-content;
+  min-height: 250px;
   background: #e6e6e6;
   justify-content: center;
 }
 .now-trending > h2 {
   position: absolute;
+  top: 15px;
   height: 30px;
+  font-size: 35px;
+  font-weight: 300;
   text-align: center;
 }
 .now-trending .products {
   display: flex;
-
   margin-top: 60px;
   position: relative;
   flex-wrap: wrap;
@@ -21,26 +23,26 @@
   height: fit-content;
   justify-content: center;
 }
+.now-trending .products > ul {
+  background: #fff;
+  margin: 15px;
+  border-radius: 10px;
+}
 .now-trending .products > ul li {
   position: relative;
-  display: block;
+  list-style: none;
   width: auto;
-  height: 270px;
-  box-sizing: border-box;
+  height: fit-content;
 }
 .now-trending .products > ul > li p {
-  bottom: 0;
-  position: absolute;
-  background-color: aqua;
+  position: relative;
   width: 150px;
   text-align: center;
   padding: 10px 0;
 }
 .now-trending .products > ul > li > img {
-  max-width: 136px;
+  max-width: 116px;
   position: relative;
-  padding: 24px 8px 16px 8px;
-  border-radius: 15px;
-  background: #fff;
+  padding: 22px 18px 5px 18px;
   vertical-align: text-top;
 }

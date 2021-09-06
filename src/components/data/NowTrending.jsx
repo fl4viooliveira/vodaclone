@@ -34,8 +34,8 @@ export default function NowTrending() {
           return (
             <ul key={product.id}>
               <li>
-                <p>{product.title}</p>
                 <img src={product.img} alt={`${product.title}`} />
+                <p>{product.title}</p>
               </li>
             </ul>
           );

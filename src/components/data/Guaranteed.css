@@ -108,13 +108,15 @@ span:hover {
     height: fit-content;
   }
   .hello-text {
-    height: 320px;
+    height: 190px;
   }
   .hello-text h1 {
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 22px;
   }
   .hello .hello-text h2 {
-    margin-top: 110px;
+    margin-top: 60px;
+    font-size: 15px;
     width: 80vw;
   }
   .hello .hello-text .bkg-img {
@@ -126,7 +128,13 @@ span:hover {
   }
   .quick-links {
     height: 300px;
+    display: flex;
   }
-  .quick-links > ul {
+  .quick-links > ul > li {
+    padding: 20px;
+    margin: auto;
+  }
+  .quick-links > ul > li > span {
+    width: 40px;
   }
 } ;
