@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/vodaclone/static/css/main.53c854d6.chunk.css",
-    "main.js": "/vodaclone/static/js/main.92b1d07e.chunk.js",
-    "main.js.map": "/vodaclone/static/js/main.92b1d07e.chunk.js.map",
-    "runtime-main.js": "/vodaclone/static/js/runtime-main.bc835d38.js",
-    "runtime-main.js.map": "/vodaclone/static/js/runtime-main.bc835d38.js.map",
-    "static/js/2.c683e875.chunk.js": "/vodaclone/static/js/2.c683e875.chunk.js",
-    "static/js/2.c683e875.chunk.js.map": "/vodaclone/static/js/2.c683e875.chunk.js.map",
-    "static/js/3.3a29fb84.chunk.js": "/vodaclone/static/js/3.3a29fb84.chunk.js",
-    "static/js/3.3a29fb84.chunk.js.map": "/vodaclone/static/js/3.3a29fb84.chunk.js.map",
+    "main.css": "/vodaclone/static/css/main.55a46d8c.chunk.css",
+    "main.js": "/vodaclone/static/js/main.8a4c250d.chunk.js",
+    "main.js.map": "/vodaclone/static/js/main.8a4c250d.chunk.js.map",
+    "runtime-main.js": "/vodaclone/static/js/runtime-main.33033908.js",
+    "runtime-main.js.map": "/vodaclone/static/js/runtime-main.33033908.js.map",
+    "static/js/2.3dd8c4b2.chunk.js": "/vodaclone/static/js/2.3dd8c4b2.chunk.js",
+    "static/js/2.3dd8c4b2.chunk.js.map": "/vodaclone/static/js/2.3dd8c4b2.chunk.js.map",
+    "static/js/3.87fb1416.chunk.js": "/vodaclone/static/js/3.87fb1416.chunk.js",
+    "static/js/3.87fb1416.chunk.js.map": "/vodaclone/static/js/3.87fb1416.chunk.js.map",
     "index.html": "/vodaclone/index.html",
-    "static/css/main.53c854d6.chunk.css.map": "/vodaclone/static/css/main.53c854d6.chunk.css.map",
-    "static/js/2.c683e875.chunk.js.LICENSE.txt": "/vodaclone/static/js/2.c683e875.chunk.js.LICENSE.txt",
-    "static/media/vfcon106076.179d6168.png": "/vodaclone/static/media/vfcon106076.179d6168.png",
+    "static/css/main.55a46d8c.chunk.css.map": "/vodaclone/static/css/main.55a46d8c.chunk.css.map",
+    "static/js/2.3dd8c4b2.chunk.js.LICENSE.txt": "/vodaclone/static/js/2.3dd8c4b2.chunk.js.LICENSE.txt",
     "static/media/vfcon110851.4426f024.png": "/vodaclone/static/media/vfcon110851.4426f024.png",
     "static/media/vfcon110904.16d8e7b0.jpg": "/vodaclone/static/media/vfcon110904.16d8e7b0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc835d38.js",
-    "static/js/2.c683e875.chunk.js",
-    "static/css/main.53c854d6.chunk.css",
-    "static/js/main.92b1d07e.chunk.js"
+    "static/js/runtime-main.33033908.js",
+    "static/js/2.3dd8c4b2.chunk.js",
+    "static/css/main.55a46d8c.chunk.css",
+    "static/js/main.8a4c250d.chunk.js"
   ]
 }
