@@ -1,11 +1,22 @@
 .body-container {
   position: relative;
+  overflow: auto;
 }
 .galaxy {
   position: relative;
   left: 50%;
   right: 50%;
   transform: translate(-50%, 0);
+}
+.yml-div {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.nt-div {
+  position: relative;
+  display: block;
+  height: 100%;
 }
 .very-me {
   display: flex;
