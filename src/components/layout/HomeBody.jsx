@@ -16,9 +16,9 @@ export default function HomeBody(props) {
       <Guaranteed />
       <YouMightLike />
       <NowTrending />
-      <LifeEasier />
-      <MoreToLove />
-      <div className="very-me">
+      {/* <LifeEasier /> */}
+      {/* <MoreToLove /> */}
+      {/* <div className="very-me">
         <h1>
           VeryMe Rewards <br /> The loyalty programme built around you
         </h1>
@@ -26,8 +26,8 @@ export default function HomeBody(props) {
           <a href="#0">Find out more</a>
         </button>
         <img src={VeryMe} alt="VeryMe" />
-      </div>
-      <DiscoverMore />
+      </div> */}
+      {/* <DiscoverMore /> */}
       <Footer />
     </div>
   );
