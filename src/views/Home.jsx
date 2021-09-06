@@ -1,4 +1,3 @@
-import YouMightLike from "../components/data/YouMightLike";
 import Header from "../components/Header";
 import HomeBody from "../components/layout/HomeBody";
 

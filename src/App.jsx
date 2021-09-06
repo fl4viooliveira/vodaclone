@@ -8,13 +8,16 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        {/* <Route exact path="/"> */}
+        <Route exact path={`${process.env.PUBLIC_URL}/`}>
           <Home />
         </Route>
-        <Route path="/list">
+        {/* <Route path="/list"> */}
+        <Route path={`${process.env.PUBLIC_URL}/list`}>
           <PhoneList />
         </Route>
-        <Route path="/detail">
+        {/* <Route path="/detail"> */}
+        <Route path={`${process.env.PUBLIC_URL}/detail`}>
           <Detail />
         </Route>
       </Switch>
