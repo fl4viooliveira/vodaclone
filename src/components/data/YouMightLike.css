@@ -2,10 +2,14 @@
   position: relative;
   max-width: 1265px;
   width: 100%;
-  height: 700px;
+  margin-bottom: 30px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
   z-index: 5;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 .main-container .yml-title {
   text-align: center;
@@ -14,7 +18,7 @@
   padding: 15px;
 }
 .main-container .container {
-  position: absolute;
+  position: relative;
   display: grid;
   grid-template-columns: calc(50% - 10px) calc(50% - 10px);
   grid-template-rows: calc(50% - 10px) calc(50% - 10px);
@@ -189,6 +193,12 @@
   bottom: 20px;
 }
 
+/* Media Query 1265px ----------------------------------------------*/
+@media screen and (max-width: 1265px) {
+  .main-container {
+    width: 95%;
+  }
+}
 /* Media Query 960px ----------------------------------------------*/
 @media screen and (max-width: 960px) {
   .main-container .container {
@@ -261,9 +271,9 @@
 /* Media Query 500px --------------------------------------------- */
 @media screen and (max-width: 500px) {
   .main-container {
-    position: relative;
     width: 92%;
-    height: 1250px;
+    height: auto;
+    margin-bottom: 10px;
     margin-left: 50%;
     transform: translate(-50%);
   }
@@ -271,7 +281,7 @@
     display: block;
     position: relative;
     flex-wrap: wrap;
-    height: 550px;
+    height: auto;
     margin-left: 50%;
     transform: translate(-50%);
   }
@@ -324,7 +334,7 @@
   .item-2 > h1 {
     z-index: 3;
     font-size: 5vw;
-    bottom: 80px;
+    bottom: 120px;
   }
   .item-2 > h2 {
     position: absolute;
