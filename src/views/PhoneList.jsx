@@ -1,10 +1,11 @@
 import Header from "../components/Header";
+import ProductList from "../components/data/ProductList";
 
 export default function PhoneList() {
   return (
     <div>
       <Header />
-      <h1>Phone List</h1>
+      <ProductList />
     </div>
   );
 }
