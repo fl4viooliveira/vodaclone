@@ -63,14 +63,21 @@ a {
 .menu-list .header-menu {
   display: flex;
   list-style: none;
+  padding: 0 20px;
 }
 .menu-list .menu-item {
-  font-size: 20px;
+  text-decoration: none;
   font-weight: 400;
   position: relative;
-  margin-right: 35px;
-  margin-left: 10px;
   color: #4a4d4e;
+  font-size: 20px;
+  text-decoration-color: #e60000;
+}
+.menu-item > a {
+  color: #4a4d4e;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 0;
 }
 .right-icons {
   position: absolute;

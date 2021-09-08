@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./HeaderLayout.css";
 import * as Constants from "../data/svg.js";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function HeaderLayout(props) {
   const [click, setClick] = useState(false);
@@ -27,16 +28,26 @@ export default function HeaderLayout(props) {
       </div>
       <div className="main">
         <div className="main-menu">
-          <div className="logo">{Constants.logo}</div>
+          <div className="logo">
+            <Link to={`${process.env.PUBLIC_URL}/`}>{Constants.logo}</Link>
+          </div>
           <div className="menu-list">
             <ul
               className={click ? "header-menu active" : "header-menu"}
               onClick={handleClick}
             >
-              <li className="menu-item">Shop</li>
-              <li className="menu-item">Why Vodafone</li>
-              <li className="menu-item">Help</li>
-              <li className="menu-item">My Vodafone</li>
+              <li className="menu-item">
+                <Link to={`${process.env.PUBLIC_URL}/list`}>Shop</Link>
+              </li>
+              <li className="menu-item">
+                <Link to={`${process.env.PUBLIC_URL}/list`}>Why Vodafone</Link>
+              </li>
+              <li className="menu-item">
+                <Link to={`${process.env.PUBLIC_URL}/list`}>Help</Link>
+              </li>
+              <li className="menu-item">
+                <Link to={`${process.env.PUBLIC_URL}/list`}>My Vodafone</Link>
+              </li>
             </ul>
             <ul className="right-icons">
               <li className="cart">{Constants.cartIcon}</li>
