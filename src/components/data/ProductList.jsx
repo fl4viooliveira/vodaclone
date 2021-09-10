@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./ProductList.css";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import ProductDetail from "./ProductDetail";
 
-export default function ProductList() {
+export default function ProductList(props) {
   const [products, setProducts] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -32,12 +34,24 @@ export default function ProductList() {
       <div className="product-list">
         {products?.phones.map((product) => {
           return (
-            <ul key={product.id}>
-              <li>
+            <ul>
+              <li key={product.id}>
                 <img src={product.img} alt={`${product.name}`} />
                 <h3>{product.name}</h3>
                 <h4>From {product.price_month} per month</h4>
                 <h4>{product.price_upfront} upfront</h4>
+                <button>
+                  <Link
+                    key={product.id}
+                    to={`${process.env.PUBLIC_URL}/detail/${product.id}`}
+                    children={
+                      <ProductDetail key={product.id} name={product.name} />
+
+                    }
+                  >
+                    {product.name}
+                  </Link>
+                </button>
               </li>
             </ul>
           );

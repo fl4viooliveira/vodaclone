@@ -1,10 +1,11 @@
 import Header from "../components/Header";
+import ProductDetail from "../components/data/ProductDetail";
 
 export default function Detail() {
   return (
     <div>
       <Header />
-      <h1>Product Detail</h1>
+      <ProductDetail />
     </div>
   );
 }
