@@ -40,7 +40,7 @@ export default function ProductList(props) {
                 <h3>{product.name}</h3>
                 <h4>From {product.price_month} per month</h4>
                 <h4>{product.price_upfront} upfront</h4>
-                <button>
+                <button className="buy-button">
                   <Link
                     key={product.id}
                     to={`${process.env.PUBLIC_URL}/detail/${product.id}`}

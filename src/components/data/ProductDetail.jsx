@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, useParams } from "react-router-dom";
+import "./ProductDetail.css"
 
 export default function ProductDetail(props) {
   const [products, setProducts] = useState(null);
@@ -26,13 +27,13 @@ export default function ProductDetail(props) {
   }, []);
 
   return (
-    <div>
+    <div className="detail-container">
       {loading && <div>Loading...</div>}
       {error && <div>Error: {error.message}</div>}
       {products && (
-        <div key={id}>
-          <h1>{id}</h1>
-          <h1>{products.name}</h1>
+        <div key={id} className="detail-content">
+          <h1 className="brand">{products.brand}</h1>
+          <h1 className="name">{products.name}</h1>
           <img src={products.img} alt={products.name} />
         </div>
       )}

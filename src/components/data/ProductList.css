@@ -53,3 +53,14 @@
   padding: 22px 18px 5px 18px;
   vertical-align: text-top;
 }
+.buy-button{
+  height:40px;
+  background:#000;
+  margin: 10px;
+  padding: 10px;
+  text-align:center;
+  
+}
+Link{
+  text-align:center;
+}
