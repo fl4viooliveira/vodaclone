@@ -32,7 +32,7 @@ export default function ProductList(props) {
       {loading && <div>Loading...</div>}
       {error && <div>Error: {error.message}</div>}
       <div className="product-list">
-        {products?.phones.map((product) => {
+        {products?.map((product) => {
           return (
             <ul>
               <li key={product.id}>
