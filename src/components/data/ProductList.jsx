@@ -45,7 +45,7 @@ export default function ProductList(props) {
                     key={product.id}
                     to={`${process.env.PUBLIC_URL}/detail/${product.id}`}
                     children={
-                      <ProductDetail key={product.id} name={product.name} />
+                      <ProductDetail  />
 
                     }
                   >

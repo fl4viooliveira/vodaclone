@@ -1,11 +1,3 @@
-// import ProductList from "./ProductList"
-// export default function ProductDetail(){
-//   console.log(<ProductList key/>)
-//   return(
-//     <div>Test</div>
-//   )
-// }
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, useParams } from "react-router-dom";
